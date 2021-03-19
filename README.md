@@ -2,9 +2,9 @@
 
 Some benchmark sripts and configs of TiFS. There is the [result](https://docs.google.com/spreadsheets/d/1QusW0FYAjLRzDN9LbMUTLvwuxtZvNz_g_1GIrwXnevc/edit?usp=sharing) tested by my personal PC with following requirements.
 
-CPU | Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz 
-Memory | 2 x 16GB DDR4 2666MHz 
-Disk | PM981 512GB M.2 NVME
+|CPU | Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz|
+|Memory | 2 x 16GB DDR4 2666MHz|
+|Disk | PM981 512GB M.2 NVME|
 
 ## Start
 
@@ -31,6 +31,7 @@ The mount point is a directory in your local filesystem, and you can pick a bloc
 Just `umount <mount point>` and mount again.
 
 > **NOTICE**
+> 
 > You should restart tikv cluster before you remount with different block size, and all the data will be cleaned after restart.
 
 ### Bench
