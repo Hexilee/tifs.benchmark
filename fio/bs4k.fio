@@ -1,0 +1,8 @@
+[global]
+filesize=8m
+
+[random]
+rw=randrw
+bs=4k
+direct=1
+size=1m
