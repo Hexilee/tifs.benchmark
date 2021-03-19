@@ -2,15 +2,26 @@
 
 Some benchmark sripts and configs of TiFS. There is the [result](https://docs.google.com/spreadsheets/d/1QusW0FYAjLRzDN9LbMUTLvwuxtZvNz_g_1GIrwXnevc/edit?usp=sharing) tested by my personal PC with following requirements.
 
-|CPU | Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz|
-|Memory | 2 x 16GB DDR4 2666MHz|
-|Disk | PM981 512GB M.2 NVME|
+<table>
+<tr>
+    <td>CPU</td>
+    <td>Intel(R) Core(TM) i5-10210U CPU @ 1.60GHz</td>
+</tr>
+<tr>
+    <td>Memory</td>
+    <td>2 x 16GB DDR4 2666</td>
+</tr>
+<tr>
+    <td>Disk</td>
+    <td>PM981 512GB M.2 NVME</td>
+</tr>
+</table>
 
 ## Start
 
-### Deploy tikv cluster
+### Deploy
 
-First at all, you need a tikv cluster to storage data of tifs. It's recommended to install [TiUP](https://github.com/pingcap/tiup) and use our deploy.sh:
+First at all, you need a tikv cluster to store data of tifs. It's recommended to install [TiUP](https://github.com/pingcap/tiup) and use our deploy.sh:
 ```bash
 ./deploy.sh <config file> <replicas>
 ```
